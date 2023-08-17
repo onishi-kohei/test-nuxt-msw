@@ -1,5 +1,6 @@
 {
   "name": "nuxt-app",
+  "type": "module",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -11,6 +12,10 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@types/node": "^18.17.3",
+    "msw": "^1.2.3",
     "nuxt": "^3.6.5"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }
