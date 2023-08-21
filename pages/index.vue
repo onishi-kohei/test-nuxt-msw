@@ -1,5 +1,8 @@
 <script setup lang="ts">
+const config = useRuntimeConfig()
+
 const { data } = await useFetch('/api/hello')
+
 </script>
 
 <template>
